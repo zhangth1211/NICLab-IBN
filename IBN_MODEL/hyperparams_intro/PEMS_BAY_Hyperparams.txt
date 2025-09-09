@@ -1,0 +1,93 @@
+**This .txt file stores the hyperparameters used in the IBN paper to achieve the reported results under different missing rates.**
+
+********************************0.25 masking rate***************************************
+# Model_Training
+		seed = 7
+		IF_mask = 0.25
+		batch_size = 16
+		epoch = 100
+        max_epoch = 50
+		lr_rate = 0.002
+		input_len= 12
+		num_id= 325
+		out_len= 12
+		in_size= 1
+        emb_size/grap_size=16/8
+		layer_num = 2
+		dropout = 0.1
+		max_norm = 1.0
+		warmup_epochs = 10
+
+
+# UAI
+		num_samples=10
+		dropout_p=0.1
+
+
+# Data_Utils
+		seed = 42
+		train_ratio = 0.6
+		valid_ratio = 0.2
+
+
+********************************0.50 masking rate***************************************
+# Model_Training
+		seed = 7
+		IF_mask = 0.5
+		batch_size = 16
+		epoch = 100
+        max_epoch = 50
+		lr_rate = 0.003
+		input_len= 12
+		num_id= 325
+		out_len= 12
+		in_size= 1
+        emb_size/grap_size=16/16
+		layer_num = 2
+		dropout = 0.1
+		max_norm = 1.0
+		warmup_epochs = 10
+
+
+# UAI
+		num_samples=10
+		dropout_p=0.1
+
+
+# Data_Utils
+		seed = 42
+		train_ratio = 0.6
+		valid_ratio = 0.2
+
+
+********************************0.75 masking rate***************************************
+# Model_Training
+        seed = 7
+		IF_mask = 0.75
+		batch_size = 16
+		epoch = 100
+        max_epoch = 50
+		lr_rate = 0.003
+		input_len= 12
+		num_id= 325
+		out_len= 12
+		in_size= 1
+        emb_size/grap_size=16/16
+		layer_num =
+		dropout = 0.1
+		max_norm = 1.0
+		warmup_epochs = 10
+
+
+# UAI
+		num_samples=10
+		dropout_p=0.1
+
+
+# Data_Utils
+		seed = 42
+		train_ratio = 0.6
+		valid_ratio = 0.2
+
+
+
